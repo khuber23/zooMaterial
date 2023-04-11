@@ -91,8 +91,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "angular-material-tutorial:build:production",
+            "firebaseProject": "materialzoo",
+            "firebaseHostingSite": "materialzoo"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

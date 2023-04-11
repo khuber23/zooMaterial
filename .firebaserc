@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "materialzoo": {
+      "hosting": {
+        "angular-material-tutorial": [
+          "materialzoo"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "materialzoo"
+  }
+}
